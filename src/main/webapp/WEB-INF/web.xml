@@ -4,9 +4,41 @@
         <servlet-name>SaveServlet</servlet-name>
         <servlet-class>myServlet.SaveServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ViewServlet</servlet-name>
+        <servlet-class>myServlet.ViewServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>myServlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Editservlet</servlet-name>
+        <servlet-class>myServlet.Editservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Database</servlet-name>
+        <servlet-class>my.common.Database</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SaveServlet</servlet-name>
         <url-pattern>/SaveServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewServlet</servlet-name>
+        <url-pattern>/ViewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Editservlet</servlet-name>
+        <url-pattern>/Editservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Database</servlet-name>
+        <url-pattern>/Database</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
